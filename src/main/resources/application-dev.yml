@@ -4,4 +4,4 @@ eureka:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://http://eureka.team-c.cloud.school.thoughtworks.cn/eureka/
+      defaultZone: http://eureka.team-c.cloud.school.thoughtworks.cn/eureka/
