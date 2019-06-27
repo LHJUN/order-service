@@ -30,6 +30,9 @@ spring:
   #TODO: change sleuth sample probability
 
   #TODO: add zipkin configs for local
+  spring:
+    zipkin:
+      base-url: http://zipkin-server:9411/
 
 #TODO: change servlet log level to view the logs
 
@@ -46,3 +49,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8080/eureka/
+
+

@@ -3,4 +3,13 @@ eureka:
     service-url:
       defaultZone: http://eureka-server:8080/eureka/
 
-#TODO: add zipkin configs for dev env
+sleuth:
+  sampler:
+    probability: 1.0
+
+zipkin:
+  base-url: http://zipkin.team-c.cloud.school.thoughtworks.cn
+
+logging:
+  level:
+    org.springframework.web: DEBUG
